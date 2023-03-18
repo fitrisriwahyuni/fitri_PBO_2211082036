@@ -13,9 +13,9 @@ public class Latihan1 {
         int a = 10;
         int b = 20;
         int c = 45;
-        int rata;
+        float rata;
         
-        rata = (a+b+C)/3;
+        rata = (a+b+c)/3;
         System.out.println("number 1 = "+a);
         
     }
