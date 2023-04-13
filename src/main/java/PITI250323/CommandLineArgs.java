@@ -2,19 +2,18 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package PITI180323;
+package PITI250323;
 
 /**
  *
- * @author USER
+ * @author User
  */
-public class Modul631 {
+public class CommandLineArgs{
     public static void main(String[] args) {
-        int count = 0;
-
-        while (count < 100) {
-            System.out.println("Nama saya adalah Fitri Sri Wahyuni");
-            count++;
+        for (int i = 0; i < args.length; i++) {
+            System.out.println(args[i]);
         }
     }
 }
+
+
